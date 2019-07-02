@@ -1,0 +1,29 @@
+{
+    "name": "sindev/laravel-datepicker",
+    "description": "Laravel helper for jQuery datepicker",
+    "license": "MIT",
+    "authors": [{
+        "name": "Yassine Kraiem",
+        "email": "kamisama953@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "sindev\\LaravelDatePicker": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "sindev\\LaravelFullcalendar\\DatePickerServiceProvider"
+            ],
+            "aliases": {
+                "Larapick": "sindev\\LaravelDatePicker\\Facades\\DatePicker"
+            }
+        }
+    },
+    "minimum-stability": "stable"
+}
