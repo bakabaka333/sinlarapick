@@ -15,15 +15,5 @@
             "sindev\\LaravelDatePicker": "src/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "sindev\\LaravelFullcalendar\\DatePickerServiceProvider"
-            ],
-            "aliases": {
-                "Larapick": "sindev\\LaravelDatePicker\\Facades\\DatePicker"
-            }
-        }
-    },
     "minimum-stability": "stable"
 }
